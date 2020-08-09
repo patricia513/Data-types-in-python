@@ -1,0 +1,20 @@
+#source code
+list1 = [4, 5, 6, 3, 9] 
+list2 = [2, 3] 
+pos = 0
+print ("The original list is : " + str(list1)) 
+print ("The list to be inserted is : " + str(list2)) 
+for i in range(len(list2)): 
+    list1.insert(i + pos, list2[i]) 
+print ("The list after insertion is : " +  str(list1)) 
+
+
+
+
+
+
+
+#output
+The original list is : [4, 5, 6, 3, 9]
+The list to be inserted is : [2, 3]
+The after insertion is : [2, 3, 4, 5, 6, 3, 9]
