@@ -1,0 +1,12 @@
+#source code
+tup = (1,2,3,4,56,7,8,9)
+n = int(input("Enter the index"))
+print("The element is" ,tup[n])
+
+
+
+
+
+#output
+Enter the index3
+The element is 4
