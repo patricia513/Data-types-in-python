@@ -1,0 +1,10 @@
+#source code
+dictionary = {"brand" : "Ford", "model" : "mustang"}
+del dictionary["model"]
+print(dictionary)
+
+
+
+
+#output
+{'brand' : 'ford'}
